@@ -5,12 +5,24 @@ const Header = () => {
   return (
     <div className={`${styles.header} sm:h-screen`}>
       <Navbar />
-      <div className="hidden sm:block absolute right-0 bottom-0 p-5 transform text-white">
+      <div
+        className="sm:flex items-center font-semibold font-quicksand hidden absolute right-0 bottom-0 p-5 transform"
+        style={{
+          color: '#F0E1FEd8',
+        }}
+      >
+        {/* <div
+          className="w-20 mr-5"
+          style={{
+            backgroundColor: '#F0E1FEd8',
+            height: '.1em',
+          }}
+        ></div> */}
         Software • React • Vue • Nodejs • Typescript
       </div>
       <div className="block p-5 sm:p-10 md:p-20 pb-16">
         <div
-          className="h-2 w-16 mb-5"
+          className="h-1 w-10 sm:h-2 sm:w-16 mb-3 sm:mb-5"
           style={{
             backgroundColor: '#ffffffe2',
           }}
