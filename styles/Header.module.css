@@ -1,0 +1,16 @@
+.header {
+  background: url('https://assets.website-files.com/5bfd1275cc56e15ce750b18e/5c289afb9a1575862e893a21_01.%20Royal%20Heath.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  background: -webkit-linear-gradient(#ffffff, #ffffff60);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text {
+  color: #ffffff60;
+}
