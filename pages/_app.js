@@ -10,7 +10,7 @@ library.add(faGithub);
 
 const App = ({ Component, pageProps }) => {
   return (
-    <div>
+    <div className="antialiased">
       <Head>
         <title>Coderinblack</title>
         <meta charset="UTF-8" />

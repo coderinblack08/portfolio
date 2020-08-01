@@ -1,11 +1,67 @@
+import { useRouter } from 'next/router';
+import Link from 'next/link';
 import Header from '../components/Header';
 
-const IndexPage = () => {
+const Home = () => {
+  const router = useRouter();
   return (
     <div>
       <Header />
+      <div className="my-20 w-11/12 md:w-4/5 mx-auto">
+        {/* <h1 className="font-dm text-4xl">Blog Posts</h1>
+        <p className="font-quicksand">
+          Software enginering content from your's truly
+        </p> */}
+        <div className="mt-16">
+          <div
+            className="cursor-pointer flex items-center flex-col md:flex-row mt-10 py-10 hover:shadow-lg md:hover:shadow-none transition ease-in-out duration-500 rouned"
+            onClick={() => {
+              if (window.innerWidth < 768) {
+                router.push('/academy');
+              }
+            }}
+          >
+            <img
+              className="object-cover w-64 h-48 rounded"
+              src="https://assets.website-files.com/5bfd1275cc56e15ce750b18e/5c289afb9a1575338a893a5f_33.%20Beauty%20Bush.jpg"
+              alt="Coderinblack Academy"
+            />
+            <div className="md:ml-20 mt-10 text-center md:text-left md:mt-0">
+              <p className="font-quicksand text-gray-500 text-xl font-thin">
+                Software Development
+              </p>
+              <h3 className="font-dm text-3xl">Coderinblack Academy</h3>
+              <p className="font-quicksand text-xl my-2">
+                My very own tutorial website on software and the web
+              </p>
+              <Link href="/academy">
+                <span className="text-lg cursor-pointer hidden md:flex items-center text-indigo-400 font-quicksand">
+                  Read More
+                  <svg
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 16 16"
+                    fill="currentColor"
+                    className="ml-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      d="M2 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8z"
+                    />
+                  </svg>
+                </span>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
 
-export default IndexPage;
+export default Home;
