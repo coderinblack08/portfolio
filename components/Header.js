@@ -1,3 +1,4 @@
+// import { motion } from 'framer-motion';
 import Navbar from './Navbar';
 import styles from '../styles/Header.module.css';
 

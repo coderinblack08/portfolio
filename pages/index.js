@@ -17,7 +17,7 @@ const Home = () => {
             className="cursor-pointer flex items-center flex-col md:flex-row mt-10 py-10 hover:shadow-lg md:hover:shadow-none transition ease-in-out duration-500 rouned"
             onClick={() => {
               if (window.innerWidth < 768) {
-                router.push('/academy');
+                window.location.href = 'https://blog.coderinblack.now.sh';
               }
             }}
           >
@@ -30,11 +30,11 @@ const Home = () => {
               <p className="font-quicksand text-gray-500 text-xl font-thin">
                 Software Development
               </p>
-              <h3 className="font-dm text-3xl">Coderinblack Academy</h3>
+              <h3 className="font-dm text-3xl">Coderinblack Blog</h3>
               <p className="font-quicksand text-xl my-2">
-                My very own tutorial website on software and the web
+                My very blog with posts about software and beyond!
               </p>
-              <Link href="/academy">
+              <a href="https://blog.coderinblack.now.sh">
                 <span className="text-lg cursor-pointer hidden md:flex items-center text-indigo-400 font-quicksand">
                   Read More
                   <svg
@@ -55,7 +55,7 @@ const Home = () => {
                     />
                   </svg>
                 </span>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
