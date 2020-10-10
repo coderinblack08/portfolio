@@ -13,10 +13,21 @@ const App = ({ Component, pageProps }) => {
     <div className="antialiased box-border">
       <Head>
         <title>Coderinblack</title>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
+        <meta
+          name="description"
+          content="Coderinblack portfolio, personal website"
+        />
+        <meta http-equiv="X-UA-Compatible" content="IE=7" />
+        <meta
+          name="keywords"
+          content="coderinblack, software, coding, react, vue, nextjs, typescript, contestpug"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <Component {...pageProps} />
+      <div className="antialiased">
+        <Component {...pageProps} />
+      </div>
     </div>
   );
 };

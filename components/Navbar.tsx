@@ -16,10 +16,15 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex flex-col md:flex-row p-5 justify-between items-center">
         <div className="flex items-center justify-between w-full md:w-auto">
-          <Link className="flex items-center mb-4 md:mb-0" href="/">
-            <span className="cursor-pointer text-xl text-white font-bold title-font">
-              The Coderinblack
-            </span>
+          <Link href="/">
+            <div className="flex items-center mb-4 md:mb-0">
+              <span className="cursor-pointer text-xl text-white font-bold title-font">
+                The Coderinblack
+              </span>
+              <span className="text-sm ml-4 px-2 rounded-sm bg-yellow-200 text-yellow-500 font-medium">
+                BETA
+              </span>
+            </div>
           </Link>
           <div
             className="cursor-pointer block md:hidden"

@@ -14,7 +14,7 @@ const Home = () => {
         </p> */}
         <div className="mt-16">
           <div
-            className="cursor-pointer flex items-center flex-col md:flex-row mt-10 py-10 hover:shadow-lg md:hover:shadow-none transition ease-in-out duration-500 rouned"
+            className="cursor-pointer flex items-center flex-col md:flex-row mt-10 py-10 hover:shadow-md md:hover:shadow-none transition ease-in-out duration-500 rouned"
             onClick={() => {
               if (window.innerWidth < 768) {
                 window.location.href = 'https://blog.coderinblack.now.sh';
@@ -27,11 +27,11 @@ const Home = () => {
               alt="Coderinblack Academy"
             />
             <div className="md:ml-20 mt-10 text-center md:text-left md:mt-0">
-              <p className="font-quicksand text-gray-500 text-xl font-thin">
+              <p className="font-quicksand text-gray-500 text-xl font-hairline">
                 Software Development
               </p>
               <h3 className="font-dm text-3xl">Coderinblack Blog</h3>
-              <p className="font-quicksand text-xl my-2">
+              <p className="font-quicksand text-xl my-2 mb-4 text-gray-800 max-w-xs sm:max-w-none">
                 My very blog with posts about software and beyond!
               </p>
               <a href="https://blog.coderinblack.now.sh">
@@ -46,11 +46,11 @@ const Home = () => {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z"
                     />
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M2 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8z"
                     />
                   </svg>

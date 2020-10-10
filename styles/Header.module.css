@@ -1,5 +1,5 @@
 .header {
-  background: url('https://assets.website-files.com/5bfd1275cc56e15ce750b18e/5c289afb9a1575862e893a21_01.%20Royal%20Heath.jpg');
+  background: url('../static/gradient-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
