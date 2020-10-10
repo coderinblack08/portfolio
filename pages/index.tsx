@@ -32,7 +32,7 @@ const Home = () => {
               </p>
               <h3 className="font-dm text-3xl">Coderinblack Blog</h3>
               <p className="font-quicksand text-xl my-2 mb-4 text-gray-800 max-w-xs sm:max-w-none">
-                My very blog with posts about software and beyond!
+                My very own blog with posts about software and beyond!
               </p>
               <a href="https://blog.coderinblack.now.sh">
                 <span className="text-lg cursor-pointer hidden md:flex items-center text-indigo-400 font-quicksand">
