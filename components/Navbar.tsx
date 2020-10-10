@@ -78,7 +78,7 @@ const Navbar = () => {
             02 About me
           </a>
           <a className="cursor-pointer mr-8 text-white font-semibold hover:text-gray-100">
-            03 Contact
+            03 Contact me
           </a>
           <a
             className="text-white font-semibold hover:text-gray-100"
