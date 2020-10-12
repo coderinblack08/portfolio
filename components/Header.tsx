@@ -80,7 +80,8 @@ const Header = () => {
         >
           Software Developer. <br />
           UI/UX Designer. <br />
-          Dreamer. <br />
+          {/* Dreamer. <br /> */}
+          Mathematician. <br />
         </h1>
         <p
           className={`${styles.text} font-quicksand font-bold text-xl sm:text-2xl md:text-3xl pt-3 md:pt-5`}

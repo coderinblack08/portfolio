@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <div className="my-20 w-11/12 md:w-4/5 mx-auto">
+      <div className="flex flex-col items-center my-20 w-11/12 md:w-4/5 mx-auto">
         {/* <h1 className="font-dm text-4xl">Blog Posts</h1>
         <p className="font-quicksand">
           Software enginering content from your's truly
@@ -67,8 +67,8 @@ const Home = () => {
             }}
           >
             <img
-              className="object-contain w-64 h-48 rounded"
-              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMjUiIGN5PSIyNSIgcj0iMjUiIGZpbGw9IiMxQzY0RjIiLz48ZyBjbGlwLXBhdGg9InVybCgjY2xpcDApIj48cGF0aCBkPSJNMjUuMDAwMSAyMy43NUMyOC4xMDIgMjMuNzUgMzIuNTAwMSAyOC41NDUzIDMyLjUwMDEgMzEuNTcyM0MzMi41MDAxIDMyLjkzNTYgMzEuNDUyOCAzMy43NSAyOS42OTc3IDMzLjc1QzI3Ljc4OTkgMzMuNzUgMjYuNTMwMSAzMi43NzAzIDI1LjAwMDEgMzIuNzcwM0MyMy40NTY3IDMyLjc3MDMgMjIuMTkzNCAzMy43NSAyMC4zMDI0IDMzLjc1QzE4LjU0NzMgMzMuNzUgMTcuNTAwMSAzMi45MzU2IDE3LjUwMDEgMzEuNTcyM0MxNy41MDAxIDI4LjU0NTMgMjEuODk4MSAyMy43NSAyNS4wMDAxIDIzLjc1Wk0zMC43NTMyIDIzLjI1NzVDMzEuMTU5NCAyMS45MDM5IDMyLjQxMSAyMS4wMjc0IDMzLjU0ODUgMjEuMjk5MkMzNC42ODYgMjEuNTcxMSAzNS4yNzg2IDIyLjg4ODcgMzQuODcyMyAyNC4yNDIyQzM0LjQ2NjEgMjUuNTk1NyAzMy4yMTQ1IDI2LjQ3MjMgMzIuMDc3IDI2LjIwMDRDMzAuOTM5NSAyNS45Mjg1IDMwLjM0NjkgMjQuNjExIDMwLjc1MzIgMjMuMjU3NVpNMjcuNDQzOCAyMi40NDU3QzI2LjIzNTIgMjIuMTI3OCAyNS42MzA1IDIwLjQ5NSAyNi4wOTMgMTguNzk4OUMyNi41NTU1IDE3LjEwMjggMjcuOTEwMiAxNS45ODYgMjkuMTE4OCAxNi4zMDM5QzMwLjMyNzQgMTYuNjIxOSAzMC45MzIxIDE4LjI1NDcgMzAuNDY5NiAxOS45NTA4QzMwLjAwNzEgMjEuNjQ2OSAyOC42NTIgMjIuNzY0MSAyNy40NDM4IDIyLjQ0NTdaTTE2LjQ1MiAyMS4yOTk2QzE3LjU4OTUgMjEuMDI3OCAxOC44NDA3IDIxLjkwNDMgMTkuMjQ3MyAyMy4yNTc4QzE5LjY1MzYgMjQuNjExNCAxOS4wNjEgMjUuOTI4OSAxNy45MjM1IDI2LjIwMDhDMTYuNzg2IDI2LjQ3MjcgMTUuNTM0OCAyNS41OTYxIDE1LjEyODIgMjQuMjQyNkMxNC43MjE5IDIyLjg4OTEgMTUuMzE0NSAyMS41NzE1IDE2LjQ1MiAyMS4yOTk2Wk0yMi41NTYzIDIyLjQ0NTdDMjEuMzQ3NyAyMi43NjM3IDE5Ljk5MyAyMS42NDY5IDE5LjUzMDUgMTkuOTUwOEMxOS4wNjggMTguMjU0NyAxOS42NzI3IDE2LjYyMjMgMjAuODgxMyAxNi4zMDM5QzIyLjA4OTkgMTUuOTg1NiAyMy40NDQ2IDE3LjEwMjggMjMuOTA3MSAxOC43OTg5QzI0LjM2OTYgMjAuNDk1IDIzLjc2NDkgMjIuMTI3OCAyMi41NTYzIDIyLjQ0NTdaIiBmaWxsPSIjZmZmIi8+PC9nPjxkZWZzPjxjbGlwUGF0aCBpZD0iY2xpcDAiPjxwYXRoIGZpbGw9IiNmZmYiIHRyYW5zZm9ybT0ibWF0cml4KC0xIDAgMCAxIDM1IDE1KSIgZD0iTTAgMEgyMFYyMEgweiIvPjwvY2xpcFBhdGg+PC9kZWZzPjwvc3ZnPg=="
+              className="object-contain h-64 rounded"
+              src="https://contestpug.vercel.app/_next/static/images/contestpug-412f281e93e4c6e56f3892d978a87888.svg"
               alt="Coderinblack Academy"
             />
             <div className="md:ml-20 mt-10 text-center md:text-left md:mt-0">
