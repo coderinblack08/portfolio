@@ -18,7 +18,7 @@ const App = ({ Component, pageProps }) => {
           name="description"
           content="Coderinblack portfolio, personal website"
         />
-        <meta http-equiv="X-UA-Compatible" content="IE=7" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=7" />
         <meta
           name="keywords"
           content="coderinblack, software, coding, react, vue, nextjs, typescript, contestpug"

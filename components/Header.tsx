@@ -11,6 +11,34 @@ const Header = () => {
       }}
     >
       <Navbar />
+      <div className="flex items-center justify-center">
+        <div className="absolute bottom-0 mb-5 lg:mb-8 xl:mb-10">
+          <svg
+            className="w-6 md:w-8 block sm:hidden lg:block"
+            viewBox="0 0 49 84"
+            fill="none"
+            style={{ color: '#F0E1FEd8' }}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              x="2"
+              y="2"
+              width="45"
+              height="80"
+              rx="22.5"
+              stroke="currentColor"
+              strokeWidth="4"
+            />
+            <circle
+              cx="24.5"
+              cy="56.5"
+              r="14.5"
+              fill="currentColor"
+              className=" transition animate-bounce"
+            />
+          </svg>
+        </div>
+      </div>
       <div
         className="sm:flex items-center font-semibold font-quicksand hidden absolute right-0 bottom-0 p-5 transform"
         style={{
