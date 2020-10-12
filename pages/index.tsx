@@ -7,12 +7,12 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <div className="flex flex-col items-center my-20 w-11/12 md:w-4/5 mx-auto">
+      <div className="flex flex-col items-center my-20 container mx-auto">
         {/* <h1 className="font-dm text-4xl">Blog Posts</h1>
         <p className="font-quicksand">
           Software enginering content from your's truly
         </p> */}
-        <div className="mt-16">
+        <div>
           <div
             className="cursor-pointer flex items-center flex-col md:flex-row mt-10 py-10 rounded"
             onClick={() => {
