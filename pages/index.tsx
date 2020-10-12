@@ -14,7 +14,7 @@ const Home = () => {
         </p> */}
         <div className="mt-16">
           <div
-            className="cursor-pointer flex items-center flex-col md:flex-row mt-10 py-10 hover:shadow-md md:hover:shadow-none transition ease-in-out duration-500 rouned"
+            className="cursor-pointer flex items-center flex-col md:flex-row mt-10 py-10 rounded"
             onClick={() => {
               if (window.innerWidth < 768) {
                 window.location.href = 'https://blog.coderinblack.now.sh';
@@ -59,7 +59,7 @@ const Home = () => {
             </div>
           </div>
           <div
-            className="cursor-pointer md:cursor-auto flex items-center flex-col md:flex-row-reverse mt-10 py-10 hover:shadow-md md:hover:shadow-none transition ease-in-out duration-500 rouned"
+            className="cursor-pointer md:cursor-auto flex items-center flex-col md:flex-row-reverse mt-10 py-10 rounded"
             onClick={() => {
               if (window.innerWidth < 768) {
                 window.location.href = 'https://contestpug.vercel.app';
@@ -107,7 +107,7 @@ const Home = () => {
           </div>
         </div>
         <div
-          className="cursor-pointer md:cursor-auto flex items-center flex-col md:flex-row mt-10 py-10 hover:shadow-md md:hover:shadow-none transition ease-in-out duration-500 rouned"
+          className="cursor-pointer xl:cursor-auto flex items-center flex-col xl:flex-row mt-10 py-10 rounded"
           onClick={() => {
             if (window.innerWidth < 768) {
               window.location.href = 'https://contestpug.vercel.app';
@@ -119,11 +119,13 @@ const Home = () => {
             src="../static/gekko.png"
             alt="Coderinblack Academy"
           />
-          <div className="md:ml-20 mt-10 text-center md:text-left md:mt-0">
-            <p className="font-quicksand text-gray-500 text-xl font-hairline">
-              Hackathon, <strong>🥈 Place</strong>
-            </p>
-            <h3 className="font-dm text-3xl">Gekko</h3>
+          <div className="xl:ml-20 mt-10 text-center xl:text-left xl:mt-0">
+            <div className="flex flex-col md:flex-col-reverse xl:flex-col">
+              <p className="font-quicksand text-gray-500 text-xl font-hairline">
+                Hackathon, <strong>🥈 Place</strong>
+              </p>
+              <h3 className="font-dm text-3xl">Gekko</h3>
+            </div>
             <p className="font-quicksand text-xl my-2 mb-4 text-gray-800 max-w-xs sm:max-w-xl">
               Gekko is an open source project created for school districts,
               extra-curricular classes, and or other educational programs to
@@ -137,8 +139,11 @@ const Home = () => {
               </a>{' '}
               with Feathers, Vue, Node, and MongoDB!
             </p>
-            <a href="https://contestpug.vercel.app">
-              <span className="text-lg cursor-pointer hidden md:flex items-center text-indigo-400 font-quicksand">
+            <a
+              href="https://contestpug.vercel.app"
+              className="flex justify-center"
+            >
+              <span className=" text-lg cursor-pointer hidden md:flex items-center text-indigo-400 font-quicksand">
                 Read More
                 <svg
                   width="1em"
