@@ -110,7 +110,7 @@ const Home = () => {
           className="cursor-pointer xl:cursor-auto flex items-center flex-col xl:flex-row mt-10 py-10 rounded"
           onClick={() => {
             if (window.innerWidth < 768) {
-              window.location.href = 'https://contestpug.vercel.app';
+              window.location.href = 'https://github.com/coderinblack08/gekko';
             }
           }}
         >
@@ -140,8 +140,8 @@ const Home = () => {
               with Feathers, Vue, Node, and MongoDB!
             </p>
             <a
-              href="https://contestpug.vercel.app"
-              className="flex justify-center"
+              href="https://github.com/coderinblack08/gekko"
+              className="flex xl:block justify-center"
             >
               <span className=" text-lg cursor-pointer hidden md:flex items-center text-indigo-400 font-quicksand">
                 Read More
