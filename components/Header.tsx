@@ -8,7 +8,7 @@ const Header = () => {
       className={`${styles.header} sm:h-screen relative`}
       style={{
         maxHeight: '920px',
-        minHeight: '800px',
+        minHeight: '780px',
       }}
     >
       <Navbar />
