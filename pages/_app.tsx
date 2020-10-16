@@ -20,6 +20,10 @@ const App = ({ Component, pageProps }) => {
         />
         <meta httpEquiv="X-UA-Compatible" content="IE=7" />
         <meta
+          name="google-site-verification"
+          content="WaNom3LvA5kHdHHd-Kpo-6aj0_7JEEs1_T456egbbVI"
+        />
+        <meta
           name="keywords"
           content="coderinblack, software, coding, react, vue, nextjs, typescript, contestpug"
         />
